@@ -1,0 +1,43 @@
+.main{
+    border: 1px solid black;
+    height: 79vh;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    overflow-y: auto; 
+}
+
+.card{
+    width: 70%;
+    height: 30vh;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    border-radius: 15px;
+    color: white;
+    background-image: url('https://media.istockphoto.com/id/1088680630/photo/abstract-pattern-of-colorful-lights-and-rain-drops-during-downpour-on-winshield-of-car.jpg?s=170667a&w=0&k=20&c=ERlOpf7f3wqZm6EskNFCUaXyRQl2IO7kuMTkgoVq46U=');
+    background-size: cover;
+    font-weight: bold;
+    
+}
+
+
+.delete{
+    justify-self: end;
+    margin: 10px 15px 0px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.delete:hover{
+    color:rgb(222, 29, 29);
+}
+
+.number{
+    justify-self: center;
+    font-size: 45px;
+}
+

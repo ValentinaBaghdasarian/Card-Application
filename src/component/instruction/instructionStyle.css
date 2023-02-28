@@ -1,0 +1,9 @@
+.rightSidebar{
+    border: 1px solid black;
+    grid-area: rightSidebar;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
